@@ -1,0 +1,43 @@
+{
+  "name": "roseram-editor",
+  "displayName": "Roseram Cursor Tools",
+  "description": "Ask questions, review selected source and compare proposed changes through your Roseram account.",
+  "version": "0.1.0",
+  "publisher": "roseram",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./extension.cjs",
+  "contributes": {
+    "commands": [
+      {
+        "command": "roseram.configure",
+        "title": "Roseram: Set Developer Key"
+      },
+      {
+        "command": "roseram.clearKey",
+        "title": "Roseram: Remove Developer Key"
+      },
+      {
+        "command": "roseram.ask",
+        "title": "Roseram: Ask"
+      },
+      {
+        "command": "roseram.review",
+        "title": "Roseram: Review Selection"
+      },
+      {
+        "command": "roseram.edit",
+        "title": "Roseram: Propose Edit to Selection"
+      }
+    ]
+  },
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": false
+    }
+  }
+}
