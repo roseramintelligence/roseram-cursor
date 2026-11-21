@@ -4,6 +4,10 @@ A browser code workspace for opening one source file and asking questions about 
 
 > **Current scope:** This repository publishes Roseram's current app source. It is an early browser/API client, not a native local-repository IDE or a clone of another company's private application.
 
+## Upstream integration
+
+Configure the Roseram model in VSCodium with Cline. [Setup instructions and configuration](upstream/README.md).
+
 ## What is included
 
 - `src/index.mjs`: self-contained Node.js local web app and Roseram API client.

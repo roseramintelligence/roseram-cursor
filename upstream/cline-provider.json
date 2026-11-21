@@ -1,0 +1,5 @@
+{
+  "provider": "OpenAI Compatible",
+  "baseURL": "https://roseram.com/api/v1",
+  "model": "roseram"
+}
